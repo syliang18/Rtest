@@ -1,5 +1,5 @@
 library(tidyverse)
-
+# make a plot
 ggplot(diamonds, aes(carat, price)) + 
   geom_hex()
 ggsave("diamonds.pdf")
