@@ -5,4 +5,5 @@ ggplot(diamonds, aes(carat, price)) +
 # save a plot to pdf file
 ggsave("diamonds.pdf")
 
+# save to csv file
 write_csv(diamonds, "diamonds.csv")
